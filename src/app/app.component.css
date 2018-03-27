@@ -1,0 +1,30 @@
+.formContainer{
+    margin-top: 80px;
+    opacity: 1;
+	animation-name: fadeInDown;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+  }
+
+input.ng-invalid.ng-touched{
+    border:1px solid red;
+}
+
+.form-group span{
+    color:red;
+}
+.json pre{
+    background:none;
+    border:none;
+}
